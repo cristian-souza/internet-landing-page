@@ -1,0 +1,11 @@
+.btn {
+    padding: 12px 20px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: #000;
+}

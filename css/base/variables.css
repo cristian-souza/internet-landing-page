@@ -1,0 +1,14 @@
+:root {
+    --color-primary: #00ff88;
+    --color-dark: #0b0f1a;
+    --color-bg-dark: #1C1F2A;
+    --color-text: #ffffff;
+    --color-text-secondary: #004B1E;
+    --color-gray: #888;
+    --color-gray-dark: #313540;
+    --color-gradient: linear-gradient(90deg, #4BE277 -90%, #D0BCFF 100%);
+    --color-bg-gradient: linear-gradient(90deg, #4BE277, #D0BCFF);
+
+    --radius: 24px;
+    --transition: 0.3s ease;
+}
