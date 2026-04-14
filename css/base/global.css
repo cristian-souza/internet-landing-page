@@ -74,6 +74,7 @@ body {
     width: 100%;
     height: 600px;
     padding: 80px 0;
+    margin-bottom: 80px;
 }
 
 .hero .container {
@@ -188,7 +189,7 @@ body {
     color: var(--color-primary);
 }
 
-.hero .hero-image .latency h3{
+.hero .hero-image .latency h3 {
     font-size: 30px;
 }
 
@@ -198,5 +199,36 @@ body {
     font-style: italic;
 }
 
+.trust {
+    width: 100%;
+    padding: 30px 0;
+    background-color: #171B2650;
 
+}
 
+.trust .trust-list {
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: var(--color-dark);
+}
+
+.trust .trust-list li {
+    display: flex;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.trust .trust-list li h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.trust .trust-list li p{
+    font-size: 12px;
+    color: var(--color-gray);
+}
