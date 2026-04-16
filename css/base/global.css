@@ -223,18 +223,18 @@ body {
     gap: 10px;
 }
 
-.trust .trust-list li h2{
+.trust .trust-list li h2 {
     font-size: 18px;
     font-weight: 700;
 }
 
-.trust .trust-list li p{
+.trust .trust-list li p {
     font-size: 12px;
     color: var(--color-gray);
 }
 
 .features {
-width: 100%;
+    width: 100%;
     height: 600px;
     padding: 40px 0;
     margin-bottom: 80px;
@@ -251,7 +251,7 @@ width: 100%;
     gap: 40px;
 }
 
-.features .features-content .feature-description{
+.features .features-content .feature-description {
     font-size: 24px;
     font-weight: 900;
     text-align: center;
@@ -307,7 +307,7 @@ width: 100%;
     background-color: #D0BCFF10;
 }
 
-.features .features-content .features-cards .feature-card h3{
+.features .features-content .features-cards .feature-card h3 {
     font-size: 20px;
     font-weight: 700;
     margin: 0 20px;
@@ -316,4 +316,245 @@ width: 100%;
 .features .features-content .features-cards .feature-card p {
     font-size: 14px;
     color: var(--color-gray);
+}
+
+/* === SPEED SECTION === */
+.speed {
+    width: 100%;
+    background: #101522;
+    padding: 40px 0 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speed-container {
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.speed-info {
+    flex: 1;
+    max-width: 500px;
+}
+
+.speed-info h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.speed-info h2 span {
+    color: var(--color-primary);
+    display: inline-block;
+}
+
+.speed-info p {
+    color: #bfc6d1;
+    font-size: 1rem;
+    margin-bottom: 32px;
+    font-weight: 400;
+}
+
+.speed-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 584px;
+}
+
+.speed-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.speed-bar .label {
+    font-size: 0.97rem;
+    font-weight: 600;
+    color: #888;
+    width: 170px;
+    text-align: left;
+    letter-spacing: 0.01em;
+}
+
+.speed-bar .label.destaque {
+    color: var(--color-primary);
+}
+
+.speed-bar .bar {
+    flex: 1;
+    height: 13px;
+    background: #23273a;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px #00ff8850;
+    margin: 0;
+    position: relative;
+}
+
+.speed-bar .bar-fill {
+    height: 100%;
+    border-radius: 8px;
+    display: block;
+    transition: width 0.5s;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.speed-bar .bar-fill.instavel {
+    width: 35%;
+    background: #444c5e;
+}
+
+.speed-bar .bar-fill.turbo {
+    width: 92%;
+    background: var(--color-bg-gradient);
+    box-shadow: 0 0 16px 2px #00ff8850;
+}
+
+.speed-bar .value {
+    font-size: 0.97rem;
+    color: #888;
+    font-weight: 700;
+    min-width: 170px;
+    text-align: right;
+    letter-spacing: 0.01em;
+}
+
+.speed-bar .value.destaque {
+    color: var(--color-primary);
+}
+
+/* CARD TESTE DE VELOCIDADE */
+.speed-test-card {
+    background: #131622;
+    border-radius: 32px;
+    box-shadow: 0 0 80px 0 #00ff8850, 0 0 0 1px #23273a;
+    padding: 32px 28px 24px 28px;
+    min-width: 370px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.speed-test-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.speed-test-header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.speed-test-header .title {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+    letter-spacing: 0.01em;
+}
+
+.speed-test-header .location {
+    color: #bfc6d1;
+    font-size: 0.625rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+.speed-test-header .icon-btn {
+    background: #23273a;
+    border: none;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+    box-shadow: 0 0 8px #00ff8840;
+    cursor: pointer;
+}
+
+.speed-test-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #101522;
+    border: 8px solid var(--color-primary);
+    box-shadow: 0 0 32px 0 #00ff8850;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px auto;
+}
+
+.speed-value {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.speed-unit {
+    font-size: 1rem;
+    color: var(--color-primary);
+    font-weight: 700;
+    margin-top: -8px;
+}
+
+.speed-test-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.speed-test-details .detail {
+    background: #181c27;
+    border-radius: 16px;
+    padding: 18px 0 8px 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 8px #00ff8820;
+}
+
+.speed-test-details .detail span {
+    color: #bfc6d1;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.speed-test-details .detail-value {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-top: 2px;
+}
+
+.speed-test-details .detail-value.destaque {
+    color: var(--color-primary);
 }
